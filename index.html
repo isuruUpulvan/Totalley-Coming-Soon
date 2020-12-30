@@ -18,11 +18,13 @@ Note: Please use our back link in your site (webthemez.com)
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold"> 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/mains.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 
 <body id="home">
+<!-- Landing Page -->
 <section class="main">
 <div id="Content" class="wrapper topSection">
 	<div id="Header">
@@ -43,7 +45,50 @@ Note: Please use our back link in your site (webthemez.com)
 </div>
 </div>
 </section>
-<section class="subscribe spacing">
+
+<!-- SignUp -->
+<section class="signup">
+  <div class="containers">
+      <div class="signup-content">
+          <div class="signup-form">
+              <h4 class="form-title">Sign Up for Your Online Digital Store</h4>
+              <form method="POST" class="register-form" id="register-form">
+                  <div class="form-group">
+                      <!-- <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label> -->
+                      <input type="text" name="name" id="name" placeholder="Name"/>
+                  </div>
+                  <div class="form-group">
+                      <!-- <label for="email"><i class="zmdi zmdi-email"></i></label> -->
+                      <input type="email" name="email" id="email" placeholder="Email"/>
+                  </div>
+                  <div class="form-group">
+                      <!-- <label for="pass"><i class="zmdi zmdi-lock"></i></label> -->
+                      <input type="tel" name="cNum" id="cNum" placeholder="Contact Number"/>
+                  </div>
+                  <div class="form-group">
+                      <!-- <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label> -->
+                      <input type="text" name="sName" id="sName" placeholder="Shop Name"/>
+                  </div>
+                  <div class="form-group">
+                    <!-- <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label> -->
+                    <input type="text" name="sAddress" id="sAddress" placeholder="Shop Address"/>
+                </div>
+                <div class="form-group">
+                  <!-- <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label> -->
+                  <input type="text" name="pCode" id="pCode" placeholder="Postal Code"/>
+              </div>
+                  <div class="form-group form-button">
+                      <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                  </div>
+              </form>
+          </div>
+          <div class="signup-image">
+              <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- <section class="subscribe spacing">
 <div class="container">
 <div id="subscribe">
 	<h3>Subscribe To Get Notified</h3>
@@ -61,47 +106,66 @@ Note: Please use our back link in your site (webthemez.com)
 	</div>
 	</div>
 </div>
-</section>
+</section> -->
 
+<!-- Product Features -->
 <section class="features spacing">
   <div class="container">
-    <h2 class="text-center">Features</h2>
+    <h2 class="text-center">How we help you increase revenue?</h2>
     <div class="row">
       <div class="col-md-6">
         <div class="featuresPro">
-          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/icon-1.png" data-at2x="img/icon-1@2x.png" alt="Features"></div>
+          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/shop.png" style="height: 100%;width: 100%;" data-at2x="img/icon-1@2x.png" alt="Features"></div>
           <div class="col-md-9 col-sm-9 col-xs-9"> 
             <!--features 1-->
-            <h4>Lorem Lpsum</h4>
+            <h4>Dynamic Online Shop for Your Store</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, beatae, esse, aspernatur, alias odio numquam incidunt perspiciatis aliquid voluptate sapiente.</p>
             <!--features 1 end--> 
           </div>
         </div>
         <div class="featuresPro">
-          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/icon-2.png" data-at2x="img/icon-2@2x.png" alt="Features"></div>
+          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/location.png" style="height: 100%;width: 100%;" data-at2x="img/icon-2@2x.png" alt="Features"></div>
           <div class="col-md-9 col-sm-9 col-xs-9"> 
             <!--features 2-->
-            <h4>Lorem Lpsum</h4>
+            <h4>Postcode Search and Local Target</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, beatae, esse, aspernatur, alias odio numquam incidunt perspiciatis aliquid voluptate sapiente.</p>
             <!--features 2 end--> 
+          </div>
+        </div>
+        <div class="featuresPro">
+          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/delivery-truck.png" style="height: 100%;width: 100%;" data-at2x="img/icon-3@2x.png" alt="Features"></div>
+          <div class="col-md-9 col-sm-9 col-xs-9"> 
+            <!--features 3-->
+            <h4>Delivery & Customer Care</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, beatae, esse, aspernatur, alias odio numquam incidunt perspiciatis aliquid voluptate sapiente.</p>
+            <!--features 3 end--> 
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="featuresPro">
-          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/icon-3.png" data-at2x="img/icon-3@2x.png" alt="Features"></div>
+          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/gift-bag.png" style="height: 100%;width: 100%;" data-at2x="img/icon-3@2x.png" alt="Features"></div>
           <div class="col-md-9 col-sm-9 col-xs-9"> 
             <!--features 3-->
-            <h4>Lorem Lpsum</h4>
+            <h4>Quality Product & Content Management</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, beatae, esse, aspernatur, alias odio numquam incidunt perspiciatis aliquid voluptate sapiente.</p>
             <!--features 3 end--> 
           </div>
         </div>
         <div class="featuresPro">
-          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/icon-4.png" data-at2x="img/icon-4@2x.png" alt="Features"></div>
+          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/icon-3.png" data-at2x="img/icon-4@2x.png" alt="Features"></div>
           <div class="col-md-9 col-sm-9 col-xs-9"> 
             <!--features 4-->
-            <h4>Lorem Lpsum</h4>
+            <h4>Order & Payment Management and Settlement</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, beatae, esse, aspernatur, alias odio numquam incidunt perspiciatis aliquid voluptate sapiente.</p>
+            <!--features 4 end--> 
+          </div>
+        </div>
+        <div class="featuresPro">
+          <div class="col-md-3 col-sm-3 col-xs-3 text-center"><img src="images/telephone.png" style="height: 100%;width: 100%;" data-at2x="img/icon-4@2x.png" alt="Features"></div>
+          <div class="col-md-9 col-sm-9 col-xs-9"> 
+            <!--features 4-->
+            <h4>Telephone order</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, beatae, esse, aspernatur, alias odio numquam incidunt perspiciatis aliquid voluptate sapiente.</p>
             <!--features 4 end--> 
           </div>
@@ -110,6 +174,7 @@ Note: Please use our back link in your site (webthemez.com)
     </div>
   </div>
 </section>
+
 <span class="tempBy">Design and Developed by: <a href="http://alphadesigncompany.com" alt="Alpha Design">Alpha Design</a></span>
 
 <!--Scripts-->
